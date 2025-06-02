@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {padding: 20px; color: #333;}
+ul, li {list-style: none;}
+h2 {text-align: center;}
+.tab_wrap {width: 1280px; margin: 0 auto;}
+.m_menu {width: 500px; display: flex; margin: 0 auto; justify-content: space-evenly; margin-bottom: 20px; padding: 0; cursor: pointer;}
+.content_wrap {margin: 0 auto;}
+.content {display: flex; justify-content: space-evenly;}
+.content > div {width: 25%; padding: 10px; position: relative;}
+.content > div > img {width: 300px;}
+.title {padding: 0px 10px;}
+.price {color: rgb(228, 72, 0); font-weight: bold; font-size: 22px; position: absolute; right: 10px; bottom: -40px;}
+.price > span {font-weight: normal; font-size: 16px;}
+
+.on {color: rgb(56, 93, 255); font-weight: bold;}
